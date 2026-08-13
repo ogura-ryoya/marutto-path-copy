@@ -40,15 +40,19 @@ file10.txt
 
 ## 導入
 
-1. AutoHotkey v2を[インストール](https://www.autohotkey.com/download/ahk-v2.exe)
-2. `marutto-path-copy.ahk` を[ダウンロード](https://github.com/ogura-ryoya/marutto-path-copy/releases/download/v1.0.0/marutto-path-copy.ahk)
-3. `marutto-path-copy.ahk` を実行
+1. AutoHotkey v2のセットアップファイルを[ダウンロード](https://www.autohotkey.com/download/ahk-v2.exe)
+2. ダウンロードしたセットアップファイルを実行し、AutoHotkey v2をインストール
+3. `marutto-path-copy.ahk` を[ダウンロード](https://github.com/ogura-ryoya/marutto-path-copy/releases/download/v1.0.0/marutto-path-copy.ahk)
+4. ダウンロードした`marutto-path-copy.ahk` を実行
 
 ### Windows起動時に自動実行
+`marutto-path-copy.ahk` は、Windowsを再起動すると自動的に実行されるわけではない
+
+そのため、毎回手動で marutto-path-copy.ahk を実行するのが面倒な場合は、スタートアップに登録する
 
 1. `Win + R` を押す
 2. `shell:startup` と入力してEnter
-3. `marutto-path-copy.ahk` のショートカットをスタートアップフォルダに追加
+3. `marutto-path-copy.ahk` の[ショートカット](https://github.com/ogura-ryoya/marutto-path-copy/releases/download/v1.0.0/marutto-path-copy.ahk.-.lnk)をスタートアップフォルダに追加
 
 ## 動作環境
 
