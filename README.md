@@ -48,10 +48,10 @@ file10.txt
 ### Windows起動時に自動実行
 `marutto-path-copy.ahk` は、Windowsを再起動すると自動的に実行されるわけではない
 
-そのため、毎回手動で marutto-path-copy.ahk を実行するのが面倒な場合は、スタートアップに登録する
+そのため、毎回手動で `marutto-path-copy.ahk` を実行するのが面倒な場合は、スタートアップに登録をする
 
 1. `Win + R` を押す
-2. `shell:startup` と入力してEnter
+2. `shell:startup` と入力してOK
 3. `marutto-path-copy.ahk` の[ショートカット](https://github.com/ogura-ryoya/marutto-path-copy/releases/download/v1.0.0/marutto-path-copy.ahk.-.lnk)をスタートアップフォルダに追加
 
 ## 動作環境
