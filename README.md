@@ -1,6 +1,6 @@
 # marutto-path-copy
 
-Windows Explorerでファイル・フォルダのパスを整形してコピーするAutoHotkey v2スクリプト
+Windows Explorerのファイル・フォルダのパスを整形してまるっとコピーするAutoHotkey v2スクリプト
 
 `Ctrl + Alt + C` で実行
 
