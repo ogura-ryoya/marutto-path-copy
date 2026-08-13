@@ -42,7 +42,7 @@ file10.txt
 
 1. AutoHotkey v2を[インストール](https://www.autohotkey.com/download/ahk-v2.exe)
 2. `marutto-path-copy.ahk` を[ダウンロード](https://github.com/ogura-ryoya/marutto-path-copy/releases/download/v1.0.0/marutto-path-copy.ahk)
-3. `marutto-path-copy.ahk` ファイルを実行
+3. `marutto-path-copy.ahk` を実行
 
 ### Windows起動時に自動実行
 
