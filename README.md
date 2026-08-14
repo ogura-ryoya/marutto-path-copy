@@ -2,8 +2,6 @@
 
 Windows Explorerのファイル・フォルダのパスを整形してまるっとコピーするAutoHotkey v2スクリプト
 
-`Ctrl + Alt + C` で実行
-
 ## できること
 
 ### ファイルを1つ選択
@@ -38,27 +36,32 @@ file10.txt
 * ファイルを下に配置
 * 同じ種類は名前順でソート
 
-## 導入
+### 共通
+
+`\\?\` / `\\?\UNC\` 形式のパスを通常形式に変換
+
+## 使い方
+
+### 起動
 
 1. AutoHotkey v2のセットアップファイルを[ダウンロード](https://www.autohotkey.com/download/ahk-v2.exe)
-2. ダウンロードしたセットアップファイルを実行し、AutoHotkey v2をインストール
+2. ダウンロードしたセットアップファイルをダブルクリックで実行し、AutoHotkey v2をインストール
 3. `marutto-path-copy.ahk` を[ダウンロード](https://github.com/ogura-ryoya/marutto-path-copy/releases/download/v1.0.0/marutto-path-copy.ahk)
-4. ダウンロードした`marutto-path-copy.ahk` を実行
+4. ダウンロードした`marutto-path-copy.ahk` をダブルクリックで起動
 
-### Windows起動時に自動実行
-`marutto-path-copy.ahk` は、Windowsを再起動すると自動的に実行されるわけではない
+### 起動確認
 
-そのため、毎回手動で `marutto-path-copy.ahk` を実行するのが面倒な場合は、スタートアップに登録をする
+画面下のタスクバーの右にある`^（隠れているインジケーターを表示します）`をクリックし、`H (marutto-path-copy.ahk)` のアイコンが表示されていれば起動成功
+
+### 実行
+
+Windows Explorer上でファイルやフォルダを選択し、`Ctrl + Alt + C` で実行
+
+### Windows起動時に自動起動
+`marutto-path-copy.ahk` は、Windowsを起動すると自動的に起動されるわけではない
+
+そのため、毎回手動で `marutto-path-copy.ahk` を起動するのが面倒な場合は、スタートアップに登録をする
 
 1. `Win + R` を押す
 2. `shell:startup` と入力してOK
 3. `marutto-path-copy.ahk` の[ショートカット](https://github.com/ogura-ryoya/marutto-path-copy/releases/download/v1.0.0/marutto-path-copy.ahk.-.lnk)をスタートアップフォルダに追加
-
-## 動作環境
-
-* Windows
-* AutoHotkey v2
-
-## その他
-
-`\\?\` / `\\?\UNC\` 形式のパスを通常形式に変換
